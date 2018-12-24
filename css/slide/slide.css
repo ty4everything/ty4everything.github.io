@@ -43,18 +43,4 @@
 
 /* Number */
 
-.slide::after {
-    position: absolute;
-    top: 0;
-    left: 875px;
-    box-sizing: border-box;
-    padding-top: 15px;
-    width: var(--ribbon-size);
-    height: calc(var(--ribbon-size) * 2);
-    background-image: url('ribbon.svg');
-    background-size: cover;
-    color: #ffffff;
-    counter-increment: slide;
-    content: counter(slide);
-    text-align: center;
-}
+
